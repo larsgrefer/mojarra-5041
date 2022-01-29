@@ -1,0 +1,5 @@
+rootProject.name = 'mojarra-5041'
+
+include "tag-library"
+include "application-custom"
+include "application-omnifaces"

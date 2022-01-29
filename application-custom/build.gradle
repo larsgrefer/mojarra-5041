@@ -1,0 +1,9 @@
+plugins {
+    id "war"
+}
+
+dependencies {
+    implementation "org.glassfish:jakarta.faces:3.0.2"
+
+    implementation project(":tag-library")
+}

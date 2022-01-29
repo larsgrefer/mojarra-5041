@@ -1,0 +1,10 @@
+plugins {
+    id "war"
+}
+
+dependencies {
+    implementation "org.glassfish:jakarta.faces:3.0.2"
+    implementation 'org.jboss.weld.servlet:weld-servlet-shaded:4.0.2.Final'
+
+    implementation "org.omnifaces:omnifaces:4.0-M13"
+}

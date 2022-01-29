@@ -1,0 +1,10 @@
+plugins {
+    id "java-library"
+}
+
+dependencies {
+    compileOnly 'jakarta.platform:jakarta.jakartaee-api:9.0.0'
+
+    //random optional third-party-library
+    compileOnly 'io.github.classgraph:classgraph:4.+'
+}
